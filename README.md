@@ -69,7 +69,7 @@ Ejemplo completo de persistencia en una **base de datos de grafos** utilizando S
 
 ---
 
-### 🐘 [CRUD Spring Boot + PostgreSQL + Angular](https://github.com/rodolfo99/CRUD-PstgreSQL-Libros-con-cliente-angular)
+### 🐘 [CRUD Spring Boot + PostgreSQL + Angular](https://github.com/rodolfo99/CRUD-PostgreSQL-Libros-con-cliente-angular)
 
 Aplicación de referencia para un CRUD REST con Spring Data JPA, PostgreSQL y Angular.
 
@@ -129,7 +129,7 @@ Aplicación full stack basada en **Spring for GraphQL**, PostgreSQL y Angular, c
 | [Spring Data GraphDB](https://github.com/rodolfo99/Spring-Data-GraphDB) | Web Semántica / RDF | Spring Boot, GraphDB, RDF4J, Angular |
 | [CRUD Solr](https://github.com/rodolfo99/CRUD-Solr-con-cliente-angular) | Búsqueda | Spring Boot, Apache Solr, Angular |
 | [CRUD Neo4j](https://github.com/rodolfo99/CRUD-LIBROS-NEO4J) | Grafos | Spring Data Neo4j, Neo4j, Angular |
-| [CRUD PostgreSQL](https://github.com/rodolfo99/CRUD-PstgreSQL-Libros-con-cliente-angular) | Base de datos relacional | Spring Data JPA, PostgreSQL, Angular |
+| [CRUD PostgreSQL](https://github.com/rodolfo99/CRUD-PostgreSQL-Libros-con-cliente-angular) | Base de datos relacional | Spring Data JPA, PostgreSQL, Angular |
 | [CRUD GraphQL](https://github.com/rodolfo99/crud-GraphQL-con-cliente-angular) | API GraphQL | Spring GraphQL, PostgreSQL, Angular |
 
 ---
