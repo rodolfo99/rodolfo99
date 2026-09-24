@@ -85,6 +85,14 @@ Aplicación full stack basada en **Spring for GraphQL**, PostgreSQL y Angular, c
 
 ---
 
+### 🎮 [The Mana World para Ubuntu 26.04](https://github.com/rodolfo99/The-Mana-World-Ubuntu-26.04)
+
+Adaptación del cliente **Mana** y el servidor **TMWA** para jugar en Ubuntu 26.04, con scripts de instalación, administración local y una primera traducción automática al español de los diálogos de NPC. Basado en las fuentes abiertas originales; la traducción requiere revisión.
+
+**Tecnologías:** C++ · SDL2 · CMake · Bash · Git · Docker Compose
+
+---
+
 ## 🧰 Tecnologías
 
 ### Backend
@@ -131,6 +139,7 @@ Aplicación full stack basada en **Spring for GraphQL**, PostgreSQL y Angular, c
 | [CRUD Neo4j](https://github.com/rodolfo99/CRUD-LIBROS-NEO4J) | Grafos | Spring Data Neo4j, Neo4j, Angular |
 | [CRUD PostgreSQL](https://github.com/rodolfo99/CRUD-PostgreSQL-Libros-con-cliente-angular) | Base de datos relacional | Spring Data JPA, PostgreSQL, Angular |
 | [CRUD GraphQL](https://github.com/rodolfo99/crud-GraphQL-con-cliente-angular) | API GraphQL | Spring GraphQL, PostgreSQL, Angular |
+| [The Mana World para Ubuntu 26.04](https://github.com/rodolfo99/The-Mana-World-Ubuntu-26.04) | MMORPG cliente/servidor con diálogos NPC en español (traducción preliminar) | C++, SDL2, CMake, Bash, Docker Compose |
 
 ---
 
