@@ -93,6 +93,23 @@ Adaptación del cliente **Mana** y el servidor **TMWA** para jugar en Ubuntu 26.
 
 ---
 
+### ⚔️ [Aincrad — SAO Aircraft Online MMORPG](https://github.com/rodolfo99/SAO-Aircraft-online-mmrpg)
+
+Proyecto semilla de un **MMORPG 3D inspirado en Sword Art Online**, con servidor autoritativo Java/Spring Boot y cliente web Angular/Three.js. Incluye dos pisos jugables, personajes personalizables, cinco razas, clases y especialidades, combate, progresión y PvP con ciudadanía.
+
+- **Cuentas y administración:** registro e inicio de sesión, recuperación por correo y panel root para editar mundo, personajes y catálogos.
+- **Economía y oficios:** bolsa persistente, recolección, herrería, sastrería y mercado con compra de armas, ropa y armaduras y venta de recursos.
+- **NPC con IA:** integración configurable con Spring AI y Ollama, opcional para jugar.
+- **Ejecución documentada:** JAR y Angular compilados, fuentes, Maven, Node.js, Docker Compose y diagnóstico del puerto de Spring Boot.
+
+**Guías:** [Instalación y puerto 8081](https://github.com/rodolfo99/SAO-Aircraft-online-mmrpg/blob/main/docs/ARRANQUE-Y-PUERTOS.md) · [Operación](https://github.com/rodolfo99/SAO-Aircraft-online-mmrpg/blob/main/docs/OPERACION.md) · [Pruebas y límites](https://github.com/rodolfo99/SAO-Aircraft-online-mmrpg/blob/main/docs/VALIDACION.md)
+
+**Estado — v0.2.0:** prototipo fan funcional de dos pisos, con gráficos propios y estilo 3D estilizado; las pruebas de escala masiva y la ejecución completa en Ubuntu 26.04 quedan pendientes.
+
+**Tecnologías:** Java · Spring Boot · Angular · Three.js · Spring AI · Ollama · Maven · Docker Compose
+
+---
+
 ## 🧰 Tecnologías
 
 ### Backend
@@ -140,6 +157,7 @@ Adaptación del cliente **Mana** y el servidor **TMWA** para jugar en Ubuntu 26.
 | [CRUD PostgreSQL](https://github.com/rodolfo99/CRUD-PostgreSQL-Libros-con-cliente-angular) | Base de datos relacional | Spring Data JPA, PostgreSQL, Angular |
 | [CRUD GraphQL](https://github.com/rodolfo99/crud-GraphQL-con-cliente-angular) | API GraphQL | Spring GraphQL, PostgreSQL, Angular |
 | [The Mana World para Ubuntu 26.04](https://github.com/rodolfo99/The-Mana-World-Ubuntu-26.04) | MMORPG cliente/servidor con diálogos NPC en español (traducción preliminar) | C++, SDL2, CMake, Bash, Docker Compose |
+| [Aincrad — SAO Aircraft Online MMORPG](https://github.com/rodolfo99/SAO-Aircraft-online-mmrpg) | Semilla MMORPG 3D de dos pisos, mundo editable, economía y NPC con IA opcional | Java, Spring Boot, Angular, Three.js, Spring AI, Ollama, Docker Compose |
 
 ---
 
