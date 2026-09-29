@@ -100,9 +100,10 @@ Proyecto semilla de un **MMORPG 3D inspirado en Sword Art Online**, con servidor
 - **Cuentas y administración:** registro e inicio de sesión, recuperación por correo y panel root para editar mundo, personajes y catálogos.
 - **Economía y oficios:** bolsa persistente, recolección, herrería, sastrería y mercado con compra de armas, ropa y armaduras y venta de recursos.
 - **NPC con IA:** integración configurable con Spring AI y Ollama, opcional para jugar.
-- **Ejecución documentada:** JAR y Angular compilados, fuentes, Maven, Node.js, Docker Compose y diagnóstico del puerto de Spring Boot.
+- **Publicado en GitHub:** fuentes, JAR v0.2.0, Angular compilado, recursos originales, scripts y configuración Docker en `main` desde el 29 de septiembre de 2026.
+- **Ejecución documentada:** arranque con Java 17/21, puerto alternativo 8081, proxy Angular, Docker Compose y reconstrucción con Maven/Node.js.
 
-**Guías:** [Instalación y puerto 8081](https://github.com/rodolfo99/SAO-Aircraft-online-mmrpg/blob/main/docs/ARRANQUE-Y-PUERTOS.md) · [Operación](https://github.com/rodolfo99/SAO-Aircraft-online-mmrpg/blob/main/docs/OPERACION.md) · [Pruebas y límites](https://github.com/rodolfo99/SAO-Aircraft-online-mmrpg/blob/main/docs/VALIDACION.md)
+**Guías:** [Instalación y puerto 8081](https://github.com/rodolfo99/SAO-Aircraft-online-mmrpg/blob/main/docs/ARRANQUE-Y-PUERTOS.md) · [Publicación y actualización](https://github.com/rodolfo99/SAO-Aircraft-online-mmrpg/blob/main/docs/PUBLICACION.md) · [Operación](https://github.com/rodolfo99/SAO-Aircraft-online-mmrpg/blob/main/docs/OPERACION.md) · [Pruebas y límites](https://github.com/rodolfo99/SAO-Aircraft-online-mmrpg/blob/main/docs/VALIDACION.md)
 
 **Estado — v0.2.0:** prototipo fan funcional de dos pisos, con gráficos propios y estilo 3D estilizado; las pruebas de escala masiva y la ejecución completa en Ubuntu 26.04 quedan pendientes.
 
