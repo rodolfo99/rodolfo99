@@ -105,7 +105,7 @@ Proyecto semilla de un **MMORPG 3D inspirado en Sword Art Online**, con servidor
 
 **Guías:** [Instalación y puerto 8081](https://github.com/rodolfo99/SAO-Aircraft-online-mmrpg/blob/main/docs/ARRANQUE-Y-PUERTOS.md) · [Publicación y actualización](https://github.com/rodolfo99/SAO-Aircraft-online-mmrpg/blob/main/docs/PUBLICACION.md) · [Operación](https://github.com/rodolfo99/SAO-Aircraft-online-mmrpg/blob/main/docs/OPERACION.md) · [Pruebas y límites](https://github.com/rodolfo99/SAO-Aircraft-online-mmrpg/blob/main/docs/VALIDACION.md)
 
-**Estado — v0.2.0:** prototipo fan funcional de dos pisos, con gráficos propios y estilo 3D estilizado; las pruebas de escala masiva y la ejecución completa en Ubuntu 26.04 quedan pendientes.
+**Estado — v0.2.0:** prototipo fan funcional de dos pisos, con gráficos propios y estilo 3D estilizado. Partida completa en Ubuntu 26.04 realizada y confirmada por el usuario el 29 de septiembre de 2026; las pruebas de escala masiva siguen pendientes.
 
 **Tecnologías:** Java · Spring Boot · Angular · Three.js · Spring AI · Ollama · Maven · Docker Compose
 
