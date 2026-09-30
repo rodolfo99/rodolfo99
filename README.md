@@ -93,7 +93,7 @@ Adaptación del cliente **Mana** y el servidor **TMWA** para jugar en Ubuntu 26.
 
 ---
 
-### ⚔️ [Aincrad — SAO Aircraft Online MMORPG](https://github.com/rodolfo99/SAO-Aircraft-online-mmrpg)
+### ⚔️ [Aincrad — SAO Aincrad Online MMORPG](https://github.com/rodolfo99/SAO-Aircraft-online-mmrpg)
 
 Proyecto semilla de un **MMORPG 3D inspirado en Sword Art Online**, con servidor autoritativo Java/Spring Boot, cliente web Angular/Three.js y cliente de escritorio **JavaFX + jMonkeyEngine/OpenGL**. Ambos clientes comparten servidor, cuentas, personajes, chat y reglas de juego. Incluye dos pisos jugables, personajes personalizables, cinco razas, clases y especialidades, combate, progresión y PvP con ciudadanía.
 
