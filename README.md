@@ -93,7 +93,7 @@ Adaptación del cliente **Mana** y el servidor **TMWA** para jugar en Ubuntu 26.
 
 ---
 
-### ⚔️ [Aincrad — SAO Aincrad Online MMORPG](https://github.com/rodolfo99/SAO-Aircraft-online-mmrpg)
+### ⚔️ [Aincrad — SAO Aincrad Online MMORPG](https://github.com/rodolfo99/SAO-Aincrad-online-mmrpg)
 
 Proyecto semilla de un **MMORPG 3D inspirado en Sword Art Online**, con servidor autoritativo Java/Spring Boot, cliente web Angular/Three.js y cliente de escritorio **JavaFX + jMonkeyEngine/OpenGL**. Ambos clientes comparten servidor, cuentas, personajes, chat y reglas de juego. Incluye dos pisos jugables, personajes personalizables, cinco razas, clases y especialidades, combate, progresión y PvP con ciudadanía.
 
@@ -104,7 +104,7 @@ Proyecto semilla de un **MMORPG 3D inspirado en Sword Art Online**, con servidor
 - **Cliente Java Desktop 0.1.0 publicado:** `client-java/`, fuentes, recursos, pruebas, guías y scripts integrados como carpeta normal en `main` el 30 de septiembre de 2026. Añade renderizado OpenGL con sombras, SSAO y bloom, y administración root nativa; conserva la convivencia con Angular.
 - **Ejecución documentada:** arranque con Java 17/21, puerto alternativo 8081, proxy Angular, Docker Compose y reconstrucción con Maven/Node.js.
 
-**Guías:** [Instalación y puerto 8081](https://github.com/rodolfo99/SAO-Aircraft-online-mmrpg/blob/main/docs/ARRANQUE-Y-PUERTOS.md) · [Publicación y actualización](https://github.com/rodolfo99/SAO-Aircraft-online-mmrpg/blob/main/docs/PUBLICACION.md) · [Operación](https://github.com/rodolfo99/SAO-Aircraft-online-mmrpg/blob/main/docs/OPERACION.md) · [Pruebas y límites del servidor/web](https://github.com/rodolfo99/SAO-Aircraft-online-mmrpg/blob/main/docs/VALIDACION.md) · [Uso del cliente Java](https://github.com/rodolfo99/SAO-Aircraft-online-mmrpg/blob/main/client-java/README.md) · [Funciones, gráficos y validación Java](https://github.com/rodolfo99/SAO-Aircraft-online-mmrpg/blob/main/docs/CLIENTE-JAVA.md) · [Fuentes Java y estado publicado](https://github.com/rodolfo99/SAO-Aircraft-online-mmrpg/blob/main/README-FUENTES-JAVA.md)
+**Guías:** [Instalación y puerto 8081](https://github.com/rodolfo99/SAO-Aincrad-online-mmrpg/blob/main/docs/ARRANQUE-Y-PUERTOS.md) · [Publicación y actualización](https://github.com/rodolfo99/SAO-Aincrad-online-mmrpg/blob/main/docs/PUBLICACION.md) · [Operación](https://github.com/rodolfo99/SAO-Aincrad-online-mmrpg/blob/main/docs/OPERACION.md) · [Pruebas y límites del servidor/web](https://github.com/rodolfo99/SAO-Aincrad-online-mmrpg/blob/main/docs/VALIDACION.md) · [Uso del cliente Java](https://github.com/rodolfo99/SAO-Aincrad-online-mmrpg/blob/main/client-java/README.md) · [Funciones, gráficos y validación Java](https://github.com/rodolfo99/SAO-Aincrad-online-mmrpg/blob/main/docs/CLIENTE-JAVA.md) · [Fuentes Java y estado publicado](https://github.com/rodolfo99/SAO-Aincrad-online-mmrpg/blob/main/README-FUENTES-JAVA.md)
 
 **Estado — servidor v0.2.0 y cliente Java Desktop 0.1.0:** prototipo fan funcional de dos pisos, con gráficos propios y estilo 3D estilizado. Partida completa con el cliente web en Ubuntu 26.04 realizada y confirmada por el usuario el 29 de septiembre de 2026. El cliente Java tiene comprobaciones documentadas de compilación, contratos y convivencia visual con Angular en Linux x86_64 con Mesa/OpenGL por software; no se presenta esa partida web como validación completa de Java. Siguen pendientes las pruebas de escala masiva y la validación gráfica Java en GPU física y Windows/macOS.
 
@@ -159,7 +159,7 @@ Proyecto semilla de un **MMORPG 3D inspirado en Sword Art Online**, con servidor
 | [CRUD PostgreSQL](https://github.com/rodolfo99/CRUD-PostgreSQL-Libros-con-cliente-angular) | Base de datos relacional | Spring Data JPA, PostgreSQL, Angular |
 | [CRUD GraphQL](https://github.com/rodolfo99/crud-GraphQL-con-cliente-angular) | API GraphQL | Spring GraphQL, PostgreSQL, Angular |
 | [The Mana World para Ubuntu 26.04](https://github.com/rodolfo99/The-Mana-World-Ubuntu-26.04) | MMORPG cliente/servidor con diálogos NPC en español (traducción preliminar) | C++, SDL2, CMake, Bash, Docker Compose |
-| [Aincrad — SAO Aincrad Online MMORPG](https://github.com/rodolfo99/SAO-Aircraft-online-mmrpg) | Semilla MMORPG 3D con clientes web y Java, dos pisos, mundo editable, economía y NPC con IA opcional | Java, Spring Boot, Angular, Three.js, JavaFX, jMonkeyEngine, OpenGL, Spring AI, Ollama, Docker Compose |
+| [Aincrad — SAO Aincrad Online MMORPG](https://github.com/rodolfo99/SAO-Aincrad-online-mmrpg) | Semilla MMORPG 3D con clientes web y Java, dos pisos, mundo editable, economía y NPC con IA opcional | Java, Spring Boot, Angular, Three.js, JavaFX, jMonkeyEngine, OpenGL, Spring AI, Ollama, Docker Compose |
 
 ---
 
