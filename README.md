@@ -66,7 +66,7 @@ Aplicación full stack para gestionar y buscar libros mediante **Apache Solr**, 
 Ejemplo completo de persistencia en una **base de datos de grafos** utilizando Spring Data Neo4j y Angular.
 
 **Tecnologías:** Java · Spring Boot · Spring Data Neo4j · Neo4j · Angular · Docker
-
+rodolfo99
 ---
 
 ### 🐘 [CRUD Spring Boot + PostgreSQL + Angular](https://github.com/rodolfo99/CRUD-PostgreSQL-Libros-con-cliente-angular)
@@ -159,7 +159,7 @@ Proyecto semilla de un **MMORPG 3D inspirado en Sword Art Online**, con servidor
 | [CRUD PostgreSQL](https://github.com/rodolfo99/CRUD-PostgreSQL-Libros-con-cliente-angular) | Base de datos relacional | Spring Data JPA, PostgreSQL, Angular |
 | [CRUD GraphQL](https://github.com/rodolfo99/crud-GraphQL-con-cliente-angular) | API GraphQL | Spring GraphQL, PostgreSQL, Angular |
 | [The Mana World para Ubuntu 26.04](https://github.com/rodolfo99/The-Mana-World-Ubuntu-26.04) | MMORPG cliente/servidor con diálogos NPC en español (traducción preliminar) | C++, SDL2, CMake, Bash, Docker Compose |
-| [Aincrad — SAO Aircraft Online MMORPG](https://github.com/rodolfo99/SAO-Aircraft-online-mmrpg) | Semilla MMORPG 3D con clientes web y Java, dos pisos, mundo editable, economía y NPC con IA opcional | Java, Spring Boot, Angular, Three.js, JavaFX, jMonkeyEngine, OpenGL, Spring AI, Ollama, Docker Compose |
+| [Aincrad — SAO Aincrad Online MMORPG](https://github.com/rodolfo99/SAO-Aircraft-online-mmrpg) | Semilla MMORPG 3D con clientes web y Java, dos pisos, mundo editable, economía y NPC con IA opcional | Java, Spring Boot, Angular, Three.js, JavaFX, jMonkeyEngine, OpenGL, Spring AI, Ollama, Docker Compose |
 
 ---
 
