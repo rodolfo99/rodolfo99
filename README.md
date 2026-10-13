@@ -16,11 +16,20 @@ Desarrollo software y proyectos técnicos enfocados en **Java, Spring Boot, Angu
 
 ---
 
-## 🚀 Sobre mí
+## 👤 Carta de presentación
 
-Soy desarrollador de software con interés especial en la construcción de aplicaciones **full stack**, integración de datos, motores de búsqueda, bases de datos relacionales y de grafos, tecnologías de **Web Semántica** e **inteligencia artificial**.
+Soy **Rodolfo Valencia Rodríguez**, ingeniero en Telemática por la Universidad de Colima. Desde **2005** desarrollo mi trayectoria profesional en esta institución, donde he desempeñado funciones de programación, desarrollo de servicios web y administración de un centro de cómputo, además de participar en el desarrollo de **SIABUC** con JavaScript y React.
 
-Mi trabajo en GitHub se concentra principalmente en proyectos reproducibles y documentados que muestran cómo integrar tecnologías modernas del ecosistema Java y web.
+Mi experiencia abarca Visual Basic, PHP y tecnologías web. En mis proyectos utilizo **Java, Spring Boot, Angular, APIs y bases de datos**. También desarrollo proyectos de búsqueda de información, grafos y Web Semántica, con especial interés en la integración de datos bibliográficos mediante MARC21 y BIBFRAME. Complemento esta práctica con formación de posgrado en ingeniería de software e inteligencia artificial.
+
+Aporto experiencia en el entorno universitario, conocimientos de desarrollo de aplicaciones y documentación que facilita la instalación, el uso y el mantenimiento del software. Me interesa construir soluciones útiles y seguir profundizando en la integración de sistemas, los datos y la inteligencia artificial aplicada. Este portafolio complementa mi currículum con código, guías y evidencias de validación que permiten conocer el alcance de cada proyecto.
+
+### Formación y certificación
+
+- **Ingeniería en Telemática** — Universidad de Colima.
+- **Maestría en Ingeniería de Software y Sistemas Informáticos** — UNIR México.
+- **Maestría en Inteligencia Artificial e Ingeniería del Conocimiento** — Universidad TECH.
+- **Certificación como programador Java.**
 
 ### Áreas de interés
 
