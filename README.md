@@ -45,6 +45,23 @@ Conversor en **Java 21** de registros MARC21 bibliográficos a **BIBFRAME/RDF**,
 
 ---
 
+### 🛠️ [SIABUC Helpdesk](https://github.com/rodolfo99/helpdesk-siabuc)
+
+Sistema independiente para gestionar el **soporte técnico a instituciones usuarias de SIABUC**, con servidor Spring Boot, cliente Angular y PostgreSQL.
+
+- **Instituciones y acceso:** contactos y responsables, cuentas con contraseña y permisos separados para administración, usuarios institucionales y cobranza.
+- **Casos y tiempo:** casos abiertos/cerrados, historial descriptivo, notas públicas e internas y bolsas independientes de minutos para correo y escritorio remoto, con validación de saldo.
+- **Pagos y notificaciones:** registro de pagos para acreditar tiempo, historial financiero y avisos SMTP al cliente y al responsable, incluidos los cierres de casos.
+- **Operación:** Docker Compose con Postfix SMTP interno, puertos y credenciales configurables, remitente con IP local y scripts de compilación, inicio, respaldo y restauración con nombre de archivo configurable.
+
+**Guías:** [Instalación](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/README.md) · [Manual de uso](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/MANUAL-USUARIO.md) · [SMTP interno](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/SMTP-INTERNO.md) · [Respaldo y restauración](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/RESPALDO-RESTAURACION.md) · [Pruebas y límites de validación](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/VALIDACION.md)
+
+**Estado:** fuentes y documentación publicados. Las pruebas ejecutadas y sus alcances están documentados; el arranque completo y la restauración real con Docker siguen pendientes de validación.
+
+**Tecnologías:** Java · Spring Boot · Angular · PostgreSQL · Docker Compose · Postfix SMTP · Python · Bash
+
+---
+
 ### 🧠 [Spring Data GraphDB](https://github.com/rodolfo99/Spring-Data-GraphDB)
 
 Implementación orientada a desarrolladores para integrar **Spring Boot con GraphDB/RDF4J**, acompañada de un backend de ejemplo y un cliente Angular.
@@ -153,6 +170,7 @@ Proyecto semilla de un **MMORPG 3D inspirado en Sword Art Online**, con servidor
 | Proyecto | Enfoque | Tecnologías principales |
 |---|---|---|
 | [Marc2BF](https://github.com/rodolfo99/Marc2BF) | MARC21 → BIBFRAME | Java, RDF, BIBFRAME, Docker |
+| [SIABUC Helpdesk](https://github.com/rodolfo99/helpdesk-siabuc) | Soporte institucional, casos, control de tiempo, pagos y notificaciones | Java, Spring Boot, Angular, PostgreSQL, Docker Compose, Postfix SMTP |
 | [Spring Data GraphDB](https://github.com/rodolfo99/Spring-Data-GraphDB) | Web Semántica / RDF | Spring Boot, GraphDB, RDF4J, Angular |
 | [CRUD Solr](https://github.com/rodolfo99/CRUD-Solr-con-cliente-angular) | Búsqueda | Spring Boot, Apache Solr, Angular |
 | [CRUD Neo4j](https://github.com/rodolfo99/CRUD-LIBROS-NEO4J) | Grafos | Spring Data Neo4j, Neo4j, Angular |
