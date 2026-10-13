@@ -61,13 +61,13 @@ Sistema independiente para gestionar el **soporte técnico a instituciones usuar
 - **Instituciones y acceso:** contactos y responsables, cuentas con contraseña y permisos separados para administración, usuarios institucionales y cobranza.
 - **Casos y tiempo:** casos abiertos/cerrados, historial descriptivo, notas públicas e internas y bolsas independientes de minutos para correo y escritorio remoto, con validación de saldo.
 - **Pagos y notificaciones:** registro de pagos para acreditar tiempo, historial financiero y avisos SMTP al cliente y al responsable, incluidos los cierres de casos.
-- **Operación:** Docker Compose con Postfix SMTP interno, puertos y credenciales configurables, remitente con IP local y scripts de compilación, inicio, respaldo y restauración con nombre de archivo configurable.
+- **Operación en Linux y Windows (v1.3.0):** scripts `.sh` para Bash en Linux y `.bat` para CMD/PowerShell en Windows, con comandos de configuración, compilación, inicio, detención, respaldo y restauración con nombre de archivo configurable. Utiliza Docker Compose con Postfix SMTP interno, remitente con IP local y puertos y credenciales configurables; en Windows requiere Docker Desktop con contenedores Linux y Python 3.10 o posterior. El desarrollo nativo con Java/Angular fuera de Docker se realiza en Linux o WSL2.
 
-**Guías:** [Instalación](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/README.md) · [Manual de uso](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/MANUAL-USUARIO.md) · [SMTP interno](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/SMTP-INTERNO.md) · [Respaldo y restauración](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/RESPALDO-RESTAURACION.md) · [Pruebas y límites de validación](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/VALIDACION.md)
+**Guías:** [Instalación](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/README.md) · [Windows](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/WINDOWS.md) · [Linux y operación Docker](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/OPERACION.md) · [Manual de uso](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/MANUAL-USUARIO.md) · [SMTP interno](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/SMTP-INTERNO.md) · [Respaldo y restauración](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/RESPALDO-RESTAURACION.md) · [Pruebas y límites de validación](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/VALIDACION.md)
 
 **Estado:** fuentes y documentación publicados. Las pruebas ejecutadas y sus alcances están documentados; el arranque completo y la restauración real con Docker siguen pendientes de validación.
 
-**Tecnologías:** Java · Spring Boot · Angular · PostgreSQL · Docker Compose · Postfix SMTP · Python · Bash
+**Tecnologías:** Java · Spring Boot · Angular · PostgreSQL · Docker Compose · Postfix SMTP · Python · Bash · Windows Batch
 
 ---
 
