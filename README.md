@@ -56,16 +56,20 @@ Conversor en **Java 21** de registros MARC21 bibliográficos a **BIBFRAME/RDF**,
 
 ### 🛠️ [SIABUC Helpdesk](https://github.com/rodolfo99/helpdesk-siabuc)
 
-Sistema independiente para gestionar el **soporte técnico a instituciones usuarias de SIABUC**, con servidor Spring Boot, cliente Angular y PostgreSQL.
+Sistema independiente para gestionar el **soporte técnico a instituciones usuarias de SIABUC**, con servidor Spring Boot, cliente Angular y PostgreSQL. **Versión 1.5.0**, que integra las mejoras de soporte de 1.4 y el módulo de pólizas y cobranza.
 
-- **Instituciones y acceso:** contactos y responsables, cuentas con contraseña y permisos separados para administración, usuarios institucionales y cobranza.
-- **Casos y tiempo:** casos abiertos/cerrados, historial descriptivo, notas públicas e internas y bolsas independientes de minutos para correo y escritorio remoto, con validación de saldo.
-- **Pagos y notificaciones:** registro de pagos para acreditar tiempo, historial financiero y avisos SMTP al cliente y al responsable, incluidos los cierres de casos.
-- **Operación en Linux y Windows (v1.3.0):** scripts `.sh` para Bash en Linux y `.bat` para CMD/PowerShell en Windows, con comandos de configuración, compilación, inicio, detención, respaldo y restauración con nombre de archivo configurable. Utiliza Docker Compose con Postfix SMTP interno, remitente con IP local y puertos y credenciales configurables; en Windows requiere Docker Desktop con contenedores Linux y Python 3.10 o posterior. El desarrollo nativo con Java/Angular fuera de Docker se realiza en Linux o WSL2.
+- **Instituciones y acceso:** cuentas con contraseña y permisos separados para Administración, clientes institucionales y Cobranza. El cliente consulta su saldo e historial, abre casos y aporta comentarios y archivos; un administrativo puede tomar los casos sin responsable.
+- **Atención y seguimiento:** estados Abierto/Cerrado, historial con detalle y regreso al listado, notas públicas/internas, categorías, prioridades, ficha técnica, SLA con horario laboral, adjuntos protegidos, cronómetro con confirmación antes del descuento y agenda de sesiones remotas.
+- **Tiempo y avisos:** bolsas independientes de minutos para correo y remoto, alertas configurables de saldo bajo y campana de avisos. La pausa del correo conserva la actividad del portal; al reanudar sólo se envían avisos nuevos.
+- **Pólizas y cobranza:** contratos y pagos en MXN por transferencia, depósito, efectivo, tarjetas, cheque u otro método; parcialidades, acreditación de horas por canal y protección ante duplicados. El pago y sus minutos se guardan juntos; crear una póliza no acredita tiempo.
+- **Comprobantes y reportes:** evidencia PDF/PNG/JPEG por pago, con autor y fecha, exclusiva de Administración/Cobranza. Historial y totales financieros por institución y generales, separados por moneda, con exportación Excel/PDF; reportes técnicos de consumos exclusivos de Administración.
+- **Operación en Linux y Windows:** scripts `.sh` para Bash y `.bat` para CMD/PowerShell, con configuración, compilación, inicio, detención, respaldo y restauración con nombre de archivo configurable. Docker Compose integra Postfix SMTP interno, puertos y credenciales configurables. Windows requiere Docker Desktop con contenedores Linux y Python 3.10+; el desarrollo nativo Java/Angular se mantiene en Linux/WSL2.
 
-**Guías:** [Instalación](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/README.md) · [Windows](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/WINDOWS.md) · [Linux y operación Docker](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/OPERACION.md) · [Manual de uso](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/MANUAL-USUARIO.md) · [SMTP interno](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/SMTP-INTERNO.md) · [Respaldo y restauración](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/RESPALDO-RESTAURACION.md) · [Pruebas y límites de validación](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/VALIDACION.md)
+**Instalación y operación:** [Guía principal](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/README.md) · [Actualizar a 1.5](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/VERSION-1.5.md) · [Windows](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/WINDOWS.md) · [Linux/Docker](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/OPERACION.md) · [Respaldo y restauración](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/RESPALDO-RESTAURACION.md)
 
-**Estado:** fuentes y documentación publicados. Las pruebas ejecutadas y sus alcances están documentados; el arranque completo y la restauración real con Docker siguen pendientes de validación.
+**Guías funcionales:** [Soporte](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/HELPDESK-1.4.md) · [Pólizas y pagos](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/POLIZAS-COBRANZA.md) · [Comprobantes](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/COMPROBANTES-PAGO.md) · [Reportes de cobranza](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/REPORTES-COBRANZA.md) · [SMTP interno](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/SMTP-INTERNO.md) · [Pausa de correo](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/DESACTIVAR-CORREO.md)
+
+**Estado:** código y documentación 1.5.0 publicados en `main`. La [validación documentada del 13/10/2026](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/VALIDACION.md) registra 104 pruebas Java de integración y 5 unitarias, 61 escenarios de navegador con API simulada y 13 recorridos Angular → Spring → PGlite sin interceptar la API. PGlite con una conexión no acredita PostgreSQL 17 nativo/Flyway ni contención multiconexión. La ejecución completa y restauración con Docker y la ejecución nativa de Windows siguen pendientes de comprobación; estas pruebas no se presentan como validación de esos entornos.
 
 **Tecnologías:** Java · Spring Boot · Angular · PostgreSQL · Docker Compose · Postfix SMTP · Python · Bash · Windows Batch
 
@@ -179,7 +183,7 @@ Proyecto semilla de un **MMORPG 3D inspirado en Sword Art Online**, con servidor
 | Proyecto | Enfoque | Tecnologías principales |
 |---|---|---|
 | [Marc2BF](https://github.com/rodolfo99/Marc2BF) | MARC21 → BIBFRAME | Java, RDF, BIBFRAME, Docker |
-| [SIABUC Helpdesk](https://github.com/rodolfo99/helpdesk-siabuc) | Soporte institucional, casos, control de tiempo, pagos y notificaciones | Java, Spring Boot, Angular, PostgreSQL, Docker Compose, Postfix SMTP |
+| [SIABUC Helpdesk](https://github.com/rodolfo99/helpdesk-siabuc) | Soporte institucional, SLA, agenda, pólizas, acreditación de horas, comprobantes y reportes | Java, Spring Boot, Angular, PostgreSQL, Docker Compose, Postfix SMTP |
 | [Spring Data GraphDB](https://github.com/rodolfo99/Spring-Data-GraphDB) | Web Semántica / RDF | Spring Boot, GraphDB, RDF4J, Angular |
 | [CRUD Solr](https://github.com/rodolfo99/CRUD-Solr-con-cliente-angular) | Búsqueda | Spring Boot, Apache Solr, Angular |
 | [CRUD Neo4j](https://github.com/rodolfo99/CRUD-LIBROS-NEO4J) | Grafos | Spring Data Neo4j, Neo4j, Angular |
