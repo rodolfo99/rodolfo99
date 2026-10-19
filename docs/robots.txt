@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rodolfo99.github.io/rodolfo99/sitemap.xml
