@@ -32,7 +32,6 @@ Aporto experiencia en el entorno universitario, conocimientos de desarrollo de a
 
 - **Ingeniería en Telemática** — Universidad de Colima.
 - **Maestría en Ingeniería de Software y Sistemas Informáticos** — UNIR México.
-- **Maestría en Inteligencia Artificial e Ingeniería del Conocimiento** — Universidad TECH.
 - **Certificación como programador Java.**
 
 ### Áreas de interés
