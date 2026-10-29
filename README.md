@@ -2,13 +2,13 @@
 
 # 👋 Rodolfo Valencia Rodríguez
 
-### Software Developer · Java · Spring Boot · Angular · Artificial Intelligence · Semantic Web
+### Ingeniería de software · Java · Spring Boot · Angular · APIs y datos
 
-Desarrollo software y proyectos técnicos enfocados en **Java, Spring Boot, Angular, bases de datos, búsqueda, grafos, RDF/BIBFRAME e inteligencia artificial**.
+Desarrollo **aplicaciones web con Java, Spring Boot y Angular**, APIs REST y GraphQL y soluciones con PostgreSQL. Trabajo también con **búsqueda de información, grafos y datos bibliográficos (MARC21, BIBFRAME y RDF)**.
 
 [![GitHub](https://img.shields.io/badge/GitHub-rodolfo99-181717?logo=github)](https://github.com/rodolfo99)
 ![Java](https://img.shields.io/badge/Java-21-007396?logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-6DB33F?logo=springboot&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=springboot&logoColor=white)
 ![Angular](https://img.shields.io/badge/Angular-20%2B-DD0031?logo=angular&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)
 
@@ -24,7 +24,9 @@ Desarrollo software y proyectos técnicos enfocados en **Java, Spring Boot, Angu
 
 Soy **Rodolfo Valencia Rodríguez**, ingeniero en Telemática por la Universidad de Colima. Desde **2005** desarrollo mi trayectoria profesional en esta institución, donde he desempeñado funciones de programación, desarrollo de servicios web y administración de un centro de cómputo, además de participar en el desarrollo de **SIABUC** con JavaScript y React.
 
-Mi experiencia abarca Visual Basic, PHP y tecnologías web. En mis proyectos utilizo **Java, Spring Boot, Angular, APIs y bases de datos**. También desarrollo proyectos de búsqueda de información, grafos y Web Semántica, con especial interés en la integración de datos bibliográficos mediante MARC21 y BIBFRAME. Complemento esta práctica con formación de posgrado en ingeniería de software e inteligencia artificial.
+Mi experiencia abarca Visual Basic, PHP y tecnologías web. En mis repositorios desarrollo **aplicaciones web con Java, Spring Boot y Angular**, **APIs REST y GraphQL** y soluciones con **PostgreSQL, Apache Solr y Neo4j**. También trabajo con RDF y SPARQL en GraphDB y con la conversión de datos bibliográficos MARC21 a BIBFRAME. Complemento esta práctica con formación de posgrado en ingeniería de software.
+
+En [Aincrad](https://github.com/rodolfo99/SAO-Aincrad-online-mmrpg) integro **modelos de lenguaje mediante Spring AI y Ollama** para generar diálogos de NPC; es una función opcional del prototipo.
 
 Aporto experiencia en el entorno universitario, conocimientos de desarrollo de aplicaciones y documentación que facilita la instalación, el uso y el mantenimiento del software. Me interesa construir soluciones útiles y seguir profundizando en la integración de sistemas, los datos y la inteligencia artificial aplicada. Este portafolio complementa mi currículum con código, guías y evidencias de validación que permiten conocer el alcance de cada proyecto.
 
@@ -36,13 +38,13 @@ Aporto experiencia en el entorno universitario, conocimientos de desarrollo de a
 
 ### Áreas de interés
 
-- ☕ Java, Spring Boot y APIs REST
+- ☕ Java y Spring Boot para APIs REST y GraphQL
 - 🅰️ Angular, TypeScript y aplicaciones web
 - 🐘 PostgreSQL y persistencia relacional
 - 🔎 Apache Solr y búsqueda de información
 - 🕸️ Neo4j, GraphDB, RDF y SPARQL
 - 📚 MARC21, BIBFRAME y tecnologías para bibliotecas
-- 🤖 Inteligencia artificial, modelos de lenguaje y automatización
+- 🤖 Integración de modelos de lenguaje con Spring AI y Ollama
 - 🐳 Docker y entornos reproducibles
 
 ---
@@ -59,9 +61,9 @@ Conversor en **Java 21** de registros MARC21 bibliográficos a **BIBFRAME/RDF**,
 
 ### 🛠️ [SIABUC Helpdesk](https://github.com/rodolfo99/helpdesk-siabuc)
 
-Sistema de soporte técnico institucional con **Spring Boot, Angular y PostgreSQL**. La **versión documentada 1.8.3** gestiona casos con cinco estados, usuarios y roles, SLA, comentarios y archivos, pólizas, cobranza, pagos y minutos de atención independientes por correo y escritorio remoto. Se encuentra **en desarrollo** una ampliación para asignar horas de soporte predeterminadas y adicionales por licencia, sin confundirla con una entrega empaquetada de 1.8.3.
+Sistema de soporte técnico institucional con **Spring Boot, Angular y PostgreSQL**. La **versión documentada 1.8.5** gestiona casos con cinco estados, usuarios y roles, SLA, comentarios y archivos, pólizas, cobranza, pagos y minutos de atención independientes por correo y escritorio remoto. Incluye asignación de horas predeterminadas y adicionales por licencia, con historial de movimientos.
 
-**Documentación:** [README actualizado](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/README.md) · [Manual detallado 1.8.3](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/MANUAL-EXTENDIDO-1.8.3.md) · [Estados y migración](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/VERSION-1.8.3.md) · [Licencias y horas (en desarrollo)](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/LICENCIAS-HORAS.md).
+**Documentación:** [README actualizado](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/README.md) · [Manual integrado 1.8.5](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/MANUAL-EXTENDIDO-LICENCIAS.md) · [Actualización 1.8.5](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/VERSION-1.8.5.md) · [Estados y migración 1.8.3](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/VERSION-1.8.3.md) · [Licencias y horas](https://github.com/rodolfo99/helpdesk-siabuc/blob/main/docs/LICENCIAS-HORAS.md).
 
 **Tecnologías:** Java · Spring Boot · Angular · PostgreSQL · Docker Compose
 
@@ -174,7 +176,7 @@ Proyecto semilla de un **MMORPG 3D inspirado en Sword Art Online**, con servidor
 | Proyecto | Enfoque | Tecnologías principales |
 |---|---|---|
 | [Marc2BF](https://github.com/rodolfo99/Marc2BF) | MARC21 → BIBFRAME | Java, RDF, BIBFRAME, Docker |
-| [SIABUC Helpdesk](https://github.com/rodolfo99/helpdesk-siabuc) | Soporte institucional, estados de casos, pólizas, cobranza y horas por licencia en desarrollo | Java, Spring Boot, Angular, PostgreSQL, Docker Compose |
+| [SIABUC Helpdesk](https://github.com/rodolfo99/helpdesk-siabuc) | Soporte institucional, estados de casos, pólizas, cobranza y horas por licencia | Java, Spring Boot, Angular, PostgreSQL, Docker Compose |
 | [Spring Data GraphDB](https://github.com/rodolfo99/Spring-Data-GraphDB) | Web Semántica / RDF | Spring Boot, GraphDB, RDF4J, Angular |
 | [CRUD Solr](https://github.com/rodolfo99/CRUD-Solr-con-cliente-angular) | Búsqueda | Spring Boot, Apache Solr, Angular |
 | [CRUD Neo4j](https://github.com/rodolfo99/CRUD-LIBROS-NEO4J) | Grafos | Spring Data Neo4j, Neo4j, Angular |
@@ -187,9 +189,11 @@ Proyecto semilla de un **MMORPG 3D inspirado en Sword Art Online**, con servidor
 
 ## 🔍 Perfil técnico
 
-Palabras clave que describen el contenido de este perfil:
+Palabras clave respaldadas por los proyectos enlazados:
 
-**Java Developer · Spring Boot Developer · Angular Developer · Full Stack Developer · Artificial Intelligence · Semantic Web · RDF · SPARQL · BIBFRAME · MARC21 · Apache Solr · Neo4j · GraphDB · PostgreSQL · GraphQL · Docker · REST API**
+**Ingeniería de software · Java · Spring Boot · Angular · TypeScript · APIs REST · GraphQL · PostgreSQL · Apache Solr · Neo4j · GraphDB · Web Semántica / Semantic Web · RDF · RDF4J · SPARQL · MARC21 · BIBFRAME · Docker Compose · Maven**
+
+**Integración de modelos de lenguaje (LLM):** Spring AI · Ollama, aplicada a diálogos de NPC en el prototipo Aincrad.
 
 ---
 
